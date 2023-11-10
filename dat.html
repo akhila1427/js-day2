@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   h1{background-color: blue;}
+   h3{background-color:yellowgreen;}
+   video{position: relative;
+
+ left: 800px;}
+  </style>
+</head>
+<body>
+  <h1>Datatypes in javascript</h1><br>
+  JavaScript has 8 Datatypes<br>
+1. String<br>
+2. Number<br>
+3. Bigint<br>
+4. Boolean<br>
+5. Undefined<br>
+6. Null<br>
+7. Symbol<br>
+8. Object<br>
+<br><br>
+The Object Datatype<br>
+The object data type can contain:<br>
+
+1. An object<br>
+2. An array<br>
+3. A date<br>
+<video controls width="400px" height="300px">
+  <source src="./datatypes.mp4"  type="video/mp4">
+</video>
+<h2>1. NUMBERS</h2>
+<p>All JavaScript numbers are stored as decimal numbers (floating point).
+Numbers can be written with, or without decimals:</p>
+<img src="./code.jpg" width="300px" height="300px"><br><br>
+<script>
+  var a=10;
+  b=20.5
+ console.log(a+b);
+ </script>
+
+<h2>2. strings</h2>
+<p>A string (or a text string) is a series of characters like "John Doe".
+Strings are written with quotes. You can use single or double quotes:</p>
+<img src="./code1.jpg" width="300px" height="300px">
+<script>
+  var a="Akhila"
+  b="Laxmi"
+  c='Akash'
+  console.log(a+b+c);
+</script>
+
+
+<h2>3. Boolean</h2>
+<p>Booleans can only have two values: true or false.</p>
+<img src="./code2.jpg" width="300px" height="300px"><br><br>
+
+<script>
+  var a="10"
+  b="7"
+  c="7"
+  console.log(a==c);
+  console.log(b==c);
+</script>
+
+
+<h2>4. Undefined</h2>
+<p>In JavaScript, a variable without a value, has the value undefined. The type is also undefined.</p>
+<img src="./code3.jpg" width="300px" height="300px"><br><br>
+
+<script>
+  var x;
+
+  console.log(x);
+ 
+  y;
+  console.log(y); 
+</script>
+
+<h2>5. NULL</h2>
+<p>In JavaScript, null is a special value that represents an empty or unknown value. </p>
+
+
+<h2>The Object Datatype</h2>
+<h3>1. ARRAY</h3>
+<p>JavaScript arrays are written with square brackets.
+
+  Array items are separated by commas.</p>
+  <br>
+ <p> Array indexes are zero-based, which means the first item is [0], second is [1], and so on.</p>
+  <br><br>
+  <img src="./code4.jpg" width="300px" height="300px"><br><br>
+
+  <script>
+   G= ["Akhila", "Akash", "Laxmi"];
+console.log(G);
+z=[10,20,30]
+console.log(z);
+//using index
+z[1]="Akhila";
+console.log(z);
+</script>
+
+  <h3>2. Object</h3>
+  
+<p>JavaScript objects are written with curly braces {}.
+ Object properties are written as name:value pairs, separated by commas.</p>
+
+ <img src="./code5.jpg" width="300px" height="300px"><br><br>
+
+
+<script>
+  let k= {username:"Akhila",age:"30", marks:"950"};
+console.log(k.age);
+</script>
+
+
+</body>
+</html>
